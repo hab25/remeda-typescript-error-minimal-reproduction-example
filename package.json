@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "remeda": "^2.28.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

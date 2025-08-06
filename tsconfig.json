@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "module": "node16",
+        "lib": ["es2020"]
+    },
+    "files": ["index.mts"]
+}
