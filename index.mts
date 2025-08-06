@@ -1,10 +1,12 @@
 import * as R from "remeda";
 
-export const getValuesWithRemeda = <T extends Record<string, unknown>, >(record: T) =>
-    R.values(record);
+export const getValuesWithRemeda = <T extends object, >(obj: T) =>
+    R.values(obj);
 
-// For comparison, try uncommenting below; it compiles successfully!
+// For comparison, try uncommenting below; these compile successfully!
 /*
-export const getValues = <T extends Record<string, unknown>, >(record: T) =>
-    Object.values(record);
+export const remedaValues = R.values;
+
+export const getValues = <T extends object, >(obj: T) =>
+    Object.values(obj);
 */
